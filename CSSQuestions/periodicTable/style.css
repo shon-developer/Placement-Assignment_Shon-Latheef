@@ -1,0 +1,50 @@
+.heading {
+  text-align: center;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.cols {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+
+section > div {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: #ede6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.blue {
+  background-color: #70a9ff;
+}
+
+.green {
+  background-color: rgb(124, 255, 124);
+}
+
+.yellow {
+  background-color: #fbfb79;
+}
+
+.red {
+  background-color: rgb(255, 105, 105);
+}
+
+.blank {
+  background-color: white;
+}

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "name": "question01",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "author": "Shon",
+  "license": "ISC",
+  "description": ""
+}

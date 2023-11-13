@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Quiz App</title>
+  </head>
+  <body class="bg-[#111111] text-white">
+    <div class="w-full h-full">
+      <div class="max-w-7xl mx-auto">
+        <h1 class="text-3xl text-center py-10">Start Quiz</h1>
+        <div class="flex flex-col gap-6 items-center">
+          <h1 id="question" class="text-2xl">Question here</h1>
+          <h1 id="score">Score</h1>
+          <div class="flex flex-col gap-2" id="choices">
+            <button>Choice1</button>
+            <button>Choice2</button>
+            <button>Choice3</button>
+            <button>Choice4</button>
+          </div>
+          <div>
+            <button class="bg-green-500 px-6 py-2 rounded-md" id="nextButton">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
